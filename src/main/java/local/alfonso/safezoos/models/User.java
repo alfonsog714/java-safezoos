@@ -76,17 +76,17 @@ public class User extends Auditable
         this.password = passwordEncoder.encode(password);
     }
 
-    public void setPasswordNoEncrpyt(String password)
+    public void setPasswordNoEncrypt(String password)
     {
         this.password = password;
     }
 
-    public List<UserRoles> getUserRole()
+    public List<UserRoles> getUserRoles()
     {
         return userRoles;
     }
 
-    public void setUserRole(List<UserRoles> userRole)
+    public void setUserRoles(List<UserRoles> userRole)
     {
         this.userRoles = userRole;
     }
