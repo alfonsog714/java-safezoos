@@ -2,6 +2,8 @@ package local.alfonso.safezoos.services;
 
 import local.alfonso.safezoos.models.User;
 import local.alfonso.safezoos.models.UserRoles;
+import local.alfonso.safezoos.repositories.RoleRepository;
+import local.alfonso.safezoos.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
