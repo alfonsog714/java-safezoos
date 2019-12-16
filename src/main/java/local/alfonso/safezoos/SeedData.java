@@ -1,12 +1,11 @@
+package local.alfonso.safezoos;
 
-package com.lambdaschool.authenticatedusers;
 
-import com.lambdaschool.authenticatedusers.model.Quote;
-import com.lambdaschool.authenticatedusers.model.Role;
-import com.lambdaschool.authenticatedusers.model.User;
-import com.lambdaschool.authenticatedusers.model.UserRoles;
-import com.lambdaschool.authenticatedusers.repository.RoleRepository;
-import com.lambdaschool.authenticatedusers.repository.UserRepository;
+import local.alfonso.safezoos.models.Role;
+import local.alfonso.safezoos.models.User;
+import local.alfonso.safezoos.models.UserRoles;
+import local.alfonso.safezoos.repositories.RoleRepository;
+import local.alfonso.safezoos.repositories.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
